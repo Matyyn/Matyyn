@@ -50,20 +50,20 @@
     .role-title {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Text', Roboto, Helvetica, Arial, sans-serif;
       font-weight: 600;
-      font-size: 19px;
+      font-size: 18.5px;
       letter-spacing: 0.2px;
       fill: #e2e8f0;
     }
     .desc-text {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Text', Roboto, Helvetica, Arial, sans-serif;
       font-weight: 400;
-      font-size: 13.5px;
+      font-size: 13px;
       fill: #94a3b8;
     }
     .badge-text {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       font-weight: 600;
-      font-size: 12px;
+      font-size: 11.5px;
     }
   </style>
 
@@ -84,47 +84,47 @@
 
   <!-- Top Status Badge -->
   <g transform="translate(48, 38)">
-    <rect x="0" y="0" width="220" height="26" rx="13" fill="#1e293b" fill-opacity="0.75" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1" />
+    <rect x="0" y="0" width="218" height="26" rx="13" fill="#1e293b" fill-opacity="0.75" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1" />
     <circle cx="14" cy="13" r="4.5" fill="#10b981" />
-    <text x="26" y="17" fill="#38bdf8" class="badge-text">AVAILABLE FOR PROJECTS</text>
+    <text x="26" y="17" fill="#38bdf8" class="badge-text">AI FULL-STACK DEVELOPER</text>
   </g>
 
   <!-- Main Name Title -->
   <text x="48" y="108" fill="url(#textGrad)" class="name-title">Abdul Mateen</text>
 
   <!-- Primary Role -->
-  <text x="48" y="142" class="role-title">Full-Stack Mobile &amp; Web Engineer</text>
+  <text x="48" y="142" class="role-title">AI Full-Stack Developer · Web, Mobile &amp; Desktop Engineer</text>
 
   <!-- Description / Core Focus -->
-  <text x="48" y="170" class="desc-text">Specializing in Flutter &amp; React Native mobile apps, Next.js web applications, and real-time backend systems.</text>
+  <text x="48" y="170" class="desc-text">Building AI-powered systems, Flutter &amp; React Native apps, Next.js platforms, and Electron / IoT automation.</text>
 
   <!-- Tech Pills / Badges at Bottom -->
   <g transform="translate(48, 190)">
-    <!-- Pill 1: Flutter & Dart -->
-    <rect x="0" y="0" width="105" height="26" rx="6" fill="#0369a1" fill-opacity="0.22" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1" />
-    <text x="52" y="17" text-anchor="middle" fill="#7dd3fc" class="badge-text">Flutter · Dart</text>
+    <!-- Pill 1: AI & Python -->
+    <rect x="0" y="0" width="122" height="26" rx="6" fill="#4c1d95" fill-opacity="0.28" stroke="#c084fc" stroke-opacity="0.4" stroke-width="1" />
+    <text x="61" y="17" text-anchor="middle" fill="#e9d5ff" class="badge-text">AI · OpenAI · Python</text>
 
-    <!-- Pill 2: React Native -->
-    <rect x="115" y="0" width="105" height="26" rx="6" fill="#1e3a8a" fill-opacity="0.25" stroke="#60a5fa" stroke-opacity="0.4" stroke-width="1" />
-    <text x="167" y="17" text-anchor="middle" fill="#93c5fd" class="badge-text">React Native</text>
+    <!-- Pill 2: Next.js & React -->
+    <rect x="132" y="0" width="108" height="26" rx="6" fill="#1e3a8a" fill-opacity="0.28" stroke="#60a5fa" stroke-opacity="0.4" stroke-width="1" />
+    <text x="186" y="17" text-anchor="middle" fill="#93c5fd" class="badge-text">Next.js · React</text>
 
-    <!-- Pill 3: Android / Kotlin -->
-    <rect x="230" y="0" width="115" height="26" rx="6" fill="#065f46" fill-opacity="0.25" stroke="#34d399" stroke-opacity="0.4" stroke-width="1" />
-    <text x="287" y="17" text-anchor="middle" fill="#6ee7b7" class="badge-text">Android · Kotlin</text>
+    <!-- Pill 3: Flutter & React Native -->
+    <rect x="250" y="0" width="136" height="26" rx="6" fill="#0369a1" fill-opacity="0.25" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1" />
+    <text x="318" y="17" text-anchor="middle" fill="#7dd3fc" class="badge-text">Flutter · React Native</text>
 
-    <!-- Pill 4: Next.js & React -->
-    <rect x="355" y="0" width="110" height="26" rx="6" fill="#312e81" fill-opacity="0.25" stroke="#a78bfa" stroke-opacity="0.4" stroke-width="1" />
-    <text x="410" y="17" text-anchor="middle" fill="#c4b5fd" class="badge-text">Next.js · React</text>
+    <!-- Pill 4: Node.js & Stripe -->
+    <rect x="396" y="0" width="110" height="26" rx="6" fill="#14532d" fill-opacity="0.28" stroke="#4ade80" stroke-opacity="0.4" stroke-width="1" />
+    <text x="451" y="17" text-anchor="middle" fill="#86efac" class="badge-text">Node.js · Stripe</text>
 
-    <!-- Pill 5: Node.js & WebSockets -->
-    <rect x="475" y="0" width="135" height="26" rx="6" fill="#14532d" fill-opacity="0.25" stroke="#4ade80" stroke-opacity="0.4" stroke-width="1" />
-    <text x="542" y="17" text-anchor="middle" fill="#86efac" class="badge-text">Node.js · WebSockets</text>
+    <!-- Pill 5: Electron & MQTT/IoT -->
+    <rect x="516" y="0" width="116" height="26" rx="6" fill="#0f766e" fill-opacity="0.28" stroke="#2dd4bf" stroke-opacity="0.4" stroke-width="1" />
+    <text x="574" y="17" text-anchor="middle" fill="#5eead4" class="badge-text">Electron · IoT/MQTT</text>
   </g>
 
   <!-- Right Decorative Icon Symbol -->
   <g transform="translate(730, 48)">
     <circle cx="60" cy="60" r="50" fill="#1e293b" fill-opacity="0.4" stroke="#818cf8" stroke-opacity="0.3" stroke-width="1.5" />
-    <!-- Stylized Code / Device Brackets -->
+    <!-- Stylized Code / AI Spark Brackets -->
     <path d="M 45 45 L 30 60 L 45 75" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M 75 45 L 90 60 L 75 75" stroke="#c084fc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M 66 42 L 54 78" stroke="#818cf8" stroke-width="2.5" stroke-linecap="round" />

@@ -124,11 +124,11 @@ I am an **AI Full-Stack Developer** and Software Engineer (**B.S. Computer Scien
 
 <p align="center">
   <a href="https://github.com/Matyyn">
-    <img src="https://github-readme-stats.vercel.app/api?username=matyyn&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="175" alt="Abdul Mateen's GitHub Stats" />
+    <img src="https://raw.githubusercontent.com/Matyyn/Matyyn/main/assets/stats.svg" height="190" alt="Abdul Mateen's GitHub Stats" />
   </a>
   &nbsp;
   <a href="https://github.com/Matyyn">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=matyyn&layout=compact&theme=tokyonight&hide_border=true" height="175" alt="Top Languages" />
+    <img src="https://raw.githubusercontent.com/Matyyn/Matyyn/main/assets/languages.svg" height="190" alt="Active Languages & Ecosystems" />
   </a>
 </p>
 

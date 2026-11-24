@@ -24,6 +24,7 @@
   <img src="https://komarev.com/ghpvc/?username=matyyn&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
   <img src="https://img.shields.io/badge/Location-Islamabad%20%2F%20Rawalpindi%2C%20Pakistan-007A3D?style=flat-square&logo=google-maps&logoColor=white" alt="Location" />
   <img src="https://img.shields.io/badge/Role-AI%20Full--Stack%20Developer-6366f1?style=flat-square" alt="Role" />
+  <img src="https://img.shields.io/badge/Education-BS%20CS%20%40%20COMSATS-0ea5e9?style=flat-square&logo=academia&logoColor=white" alt="Education" />
 </p>
 
 ---

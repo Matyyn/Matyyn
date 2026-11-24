@@ -1,0 +1,32 @@
+<svg fill="none" viewBox="0 0 900 80" width="100%" height="80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#111c38" />
+      <stop offset="100%" stop-color="#0b1120" />
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="25%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="1" />
+      <stop offset="75%" stop-color="#c084fc" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="900" height="80" rx="12" fill="url(#footerBg)" />
+
+  <!-- Top Glowing Dividing Line -->
+  <line x1="0" y1="1" x2="900" y2="1" stroke="url(#lineGrad)" stroke-width="2" />
+
+  <!-- Gentle Wave Curves -->
+  <path d="M 0 40 Q 225 20 450 40 T 900 40 L 900 80 L 0 80 Z" fill="#38bdf8" fill-opacity="0.04" />
+  <path d="M 0 50 Q 225 70 450 50 T 900 50 L 900 80 L 0 80 Z" fill="#818cf8" fill-opacity="0.05" />
+
+  <!-- Centered Subtle Note -->
+  <text x="450" y="46" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#64748b" letter-spacing="0.5">
+    DESIGNED &amp; ENGINEERED BY ABDUL MATEEN · ALWAYS BUILDING &amp; SCALING
+  </text>
+</svg>

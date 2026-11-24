@@ -1,0 +1,132 @@
+<svg fill="none" viewBox="0 0 900 240" width="100%" height="240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="40%" stop-color="#0d1527" />
+      <stop offset="80%" stop-color="#111c38" />
+      <stop offset="100%" stop-color="#0b1120" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradient 1 -->
+    <radialGradient id="glowCyan" cx="15%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Glowing Accent Gradient 2 -->
+    <radialGradient id="glowViolet" cx="85%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Text Gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.6" />
+    </linearGradient>
+
+    <!-- Subtle Dot Pattern -->
+    <pattern id="gridDots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#94a3b8" fill-opacity="0.12" />
+    </pattern>
+  </defs>
+
+  <style>
+    .name-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 42px;
+      letter-spacing: -0.5px;
+    }
+    .role-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Text', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 19px;
+      letter-spacing: 0.2px;
+      fill: #e2e8f0;
+    }
+    .desc-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Text', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 13.5px;
+      fill: #94a3b8;
+    }
+    .badge-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+    }
+  </style>
+
+  <!-- Background Card -->
+  <rect x="2" y="2" width="896" height="236" rx="16" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+
+  <!-- Ambient Glows -->
+  <rect x="2" y="2" width="896" height="236" rx="16" fill="url(#glowCyan)" />
+  <rect x="2" y="2" width="896" height="236" rx="16" fill="url(#glowViolet)" />
+
+  <!-- Dot Grid Pattern Overlay -->
+  <rect x="2" y="2" width="896" height="236" rx="16" fill="url(#gridDots)" />
+
+  <!-- Geometric Decorative Lines -->
+  <path d="M 720 0 L 890 170" stroke="#38bdf8" stroke-opacity="0.15" stroke-width="1.5" stroke-dasharray="6 6" />
+  <path d="M 760 0 L 896 136" stroke="#818cf8" stroke-opacity="0.2" stroke-width="1.5" />
+  <path d="M 0 160 L 160 0" stroke="#38bdf8" stroke-opacity="0.1" stroke-width="1" />
+
+  <!-- Top Status Badge -->
+  <g transform="translate(48, 38)">
+    <rect x="0" y="0" width="220" height="26" rx="13" fill="#1e293b" fill-opacity="0.75" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1" />
+    <circle cx="14" cy="13" r="4.5" fill="#10b981" />
+    <text x="26" y="17" fill="#38bdf8" class="badge-text">AVAILABLE FOR PROJECTS</text>
+  </g>
+
+  <!-- Main Name Title -->
+  <text x="48" y="108" fill="url(#textGrad)" class="name-title">Abdul Mateen</text>
+
+  <!-- Primary Role -->
+  <text x="48" y="142" class="role-title">Full-Stack Mobile &amp; Web Engineer</text>
+
+  <!-- Description / Core Focus -->
+  <text x="48" y="170" class="desc-text">Specializing in Flutter &amp; React Native mobile apps, Next.js web applications, and real-time backend systems.</text>
+
+  <!-- Tech Pills / Badges at Bottom -->
+  <g transform="translate(48, 190)">
+    <!-- Pill 1: Flutter & Dart -->
+    <rect x="0" y="0" width="105" height="26" rx="6" fill="#0369a1" fill-opacity="0.22" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1" />
+    <text x="52" y="17" text-anchor="middle" fill="#7dd3fc" class="badge-text">Flutter · Dart</text>
+
+    <!-- Pill 2: React Native -->
+    <rect x="115" y="0" width="105" height="26" rx="6" fill="#1e3a8a" fill-opacity="0.25" stroke="#60a5fa" stroke-opacity="0.4" stroke-width="1" />
+    <text x="167" y="17" text-anchor="middle" fill="#93c5fd" class="badge-text">React Native</text>
+
+    <!-- Pill 3: Android / Kotlin -->
+    <rect x="230" y="0" width="115" height="26" rx="6" fill="#065f46" fill-opacity="0.25" stroke="#34d399" stroke-opacity="0.4" stroke-width="1" />
+    <text x="287" y="17" text-anchor="middle" fill="#6ee7b7" class="badge-text">Android · Kotlin</text>
+
+    <!-- Pill 4: Next.js & React -->
+    <rect x="355" y="0" width="110" height="26" rx="6" fill="#312e81" fill-opacity="0.25" stroke="#a78bfa" stroke-opacity="0.4" stroke-width="1" />
+    <text x="410" y="17" text-anchor="middle" fill="#c4b5fd" class="badge-text">Next.js · React</text>
+
+    <!-- Pill 5: Node.js & WebSockets -->
+    <rect x="475" y="0" width="135" height="26" rx="6" fill="#14532d" fill-opacity="0.25" stroke="#4ade80" stroke-opacity="0.4" stroke-width="1" />
+    <text x="542" y="17" text-anchor="middle" fill="#86efac" class="badge-text">Node.js · WebSockets</text>
+  </g>
+
+  <!-- Right Decorative Icon Symbol -->
+  <g transform="translate(730, 48)">
+    <circle cx="60" cy="60" r="50" fill="#1e293b" fill-opacity="0.4" stroke="#818cf8" stroke-opacity="0.3" stroke-width="1.5" />
+    <!-- Stylized Code / Device Brackets -->
+    <path d="M 45 45 L 30 60 L 45 75" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 75 45 L 90 60 L 75 75" stroke="#c084fc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 66 42 L 54 78" stroke="#818cf8" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+</svg>

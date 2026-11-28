@@ -26,12 +26,12 @@
   <rect x="1" y="1" width="438" height="203" rx="12" fill="url(#cardBg)" stroke="url(#cardBorder)" stroke-width="1.5" />
 
   <text x="22" y="32" class="title">Abdul Mateen's GitHub Stats</text>
-  <text x="22" y="48" class="subtitle">@Matyyn · Updated Nov 27, 2026</text>
+  <text x="22" y="48" class="subtitle">@Matyyn · Updated Nov 28, 2026</text>
   <line x1="22" y1="60" x2="418" y2="60" stroke="#334155" stroke-width="1" />
 
   <g transform="translate(22, 82)">
     <text x="0" y="0" class="label">📊 Contributions (Last Year):</text>
-    <text x="210" y="0" class="val">560</text>
+    <text x="210" y="0" class="val">561</text>
 
     <text x="0" y="25" class="label">📦 Total Owned Repos:</text>
     <text x="210" y="25" class="val">18 (18 public)</text>
@@ -48,8 +48,8 @@
 
   <g transform="translate(345, 130)">
     <circle cx="0" cy="0" r="46" fill="#0f172a" stroke="#1e293b" stroke-width="6" />
-    <circle cx="0" cy="0" r="46" fill="none" stroke="url(#accentGrad)" stroke-width="6" stroke-dasharray="289" stroke-dashoffset="28" stroke-linecap="round" />
-    <text x="0" y="-2" text-anchor="middle" class="streak-num">330</text>
+    <circle cx="0" cy="0" r="46" fill="none" stroke="url(#accentGrad)" stroke-width="6" stroke-dasharray="289" stroke-dashoffset="27" stroke-linecap="round" />
+    <text x="0" y="-2" text-anchor="middle" class="streak-num">331</text>
     <text x="0" y="16" text-anchor="middle" class="streak-lbl">DAY STREAK</text>
     <text x="0" y="31" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#64748b">Live Graph</text>
   </g>
